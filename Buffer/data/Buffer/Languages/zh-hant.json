@@ -11,9 +11,9 @@
         "bolt_boost": "Bolt Boost"
     },
     "character": {
-        "title": "Character",
+        "title": "角色相關",
         "conditions_and_blights": {
-            "title": "Conditions, Ailments, & Blights",
+            "title": "各種狀態異常修改",
             "blights": {
                 "title": "避免狀態異常",
                 "blast": "爆破",
@@ -33,58 +33,58 @@
                 "poison": "毒",
                 "qurio": "Qurio",
                 "sleep": "睡眠",
-                "still_working_on": "暈眩、麻痺以及蛛絲束縛Still working"
+                "still_working_on": "暈眩、麻痺以及蛛絲束縛尚在開發中"
             }
         },
         "health": {
-            "title": "Health",
-            "healing": "Constant Healing",
-            "healing_tooltip": "Any missing health will become recoverable.",
-            "insta_healing": "Instant Healing",
-            "insta_healing_tooltip": "When you take damage, you will instantly heal back to full health.",
-            "max_adrenaline": "Max Adrenaline Health",
-            "max_dragonheart": "Max Dragonheart Health",
-            "max_dragonheart_tooltip": "Will adjust health depending on the level of Dragonheart.",
-            "max_heroics": "Max Heroics Health"
+            "title": "生命值",
+            "healing": "持續恢復體力",
+            "healing_tooltip": "任何損失的血量都可以自然回復",
+            "insta_healing": "立即恢復體力",
+            "insta_healing_tooltip": "當你受到傷害時, 你會立即回復體力至最大值",
+            "max_adrenaline": "設定至最大火事場力效果血量",
+            "max_dragonheart": "設定至最大龍氣活性效果血量",
+            "max_dragonheart_tooltip": "會依照龍氣活性的技能等級來調整血量",
+            "max_heroics": "設定至最大火事場力效果血量"
         },
         "stats": {
-            "title": "Stats",
-            "attack": "Attack",
-            "attack_disabled": "Off",
-            "attack_tooltip": "Drag slider to the left to reset if the stat break",
-            "defence": "Defence",
-            "defence_disabled": "Off",
-            "defence_tooltip": "Drag slider to the left to reset if the stat break"
+            "title": "狀態修改",
+            "attack": "攻擊力加強",
+            "attack_disabled": "關閉",
+            "attack_tooltip": "如果數值發生問題，請將滑桿拉到最左邊來重置效果",
+            "defence": "防禦力加強",
+            "defence_disabled": "關閉",
+            "defence_tooltip": "如果數值發生問題，請將滑桿拉到最左邊來重置效果"
         },
-        "unlimited_stamina": "Unlimited Stamina"
+        "unlimited_stamina": "無限體力"
     },
     "great_sword": {
-        "title": "Great Sword",
-        "charge_level": "Charge Level",
-        "charge_level_prefix": "Level",
-        "charge_level_disabled": "Off",
-        "power_sheathe": "Power Sheathe",
-        "power_sheathe_tooltip": "No effect will appear on the weapon"
+        "title": "大劍",
+        "charge_level": "充能等級 ",
+        "charge_level_prefix": "等級",
+        "charge_level_disabled": "關閉",
+        "power_sheathe": "強化納刀",
+        "power_sheathe_tooltip": "不會在武器上顯示效果"
     },
     "hammer": {
-        "title": "Hammer",
-        "charge_level": "Charge Level ",
-        "charge_level_prefix": "Level",
-        "charge_level_disabled": "Off",
+        "title": "大錘",
+        "charge_level": "充能等級 ",
+        "charge_level_prefix": "等級",
+        "charge_level_disabled": "關閉",
         "impact_burst": "Impact Burst"
     },
     "heavy_bowgun": {
-        "title": "Heavy Bowgun",
-        "charge_level": "Charge Level  ",
-        "unlimited_ammo": "Unlimited Ammo ",
-        "auto_reload": "Auto Reload  ",
-        "overheat": "Prevent Overheat",
-        "wyvern_machine_gun": "Unlimited Wyvern Machine Gun",
-        "wyvern_sniper": "Unlimited Wyvern Sniper",
-        "no_deviation": "No Deviation  "
+        "title": "重弩槍",
+        "charge_level": "充能等級  ",
+        "unlimited_ammo": "無限彈藥 ",
+        "auto_reload": "自動裝填  ",
+        "overheat": "防止過熱",
+        "wyvern_machine_gun": "無限機關龍彈",
+        "wyvern_sniper": "無限狙擊龍彈",
+        "no_deviation": "消除彈道偏移  "
     },
     "insect_glaive": {
-        "title": "Insect Glaive",
+        "title": "操蟲棍",
         "aerials": "Unlimited Aerials ",
         "kinsect_stamina": "Unlimited Kinsect Stamina",
         "orange_extract": "Orange Extract",
@@ -92,81 +92,81 @@
         "white_extract": "White Extract"
     },
     "lance": {
-        "title": "Lance",
+        "title": "長槍",
         "anchor_rage": "Anchor Rage",
         "anchor_rage_prefix": "Level",
         "anchor_rage_disabled": "Off"
     },
     "light_bowgun": {
-        "title": "Light Bowgun",
-        "unlimited_ammo": "Unlimited Ammo",
-        "auto_reload": "Auto Reload ",
+        "title": "輕弩槍",
+        "unlimited_ammo": "無限彈藥 ",
+        "auto_reload": "自動裝填 ",
         "fanning_maneuver": "Fanning Maneuver",
         "wyvern_blast": "Unlimited Wyvern Blast",
-        "no_deviation": "No Deviation "
+        "no_deviation": "消除彈道偏移 "
     },
     "long_sword": {
-        "title": "Long Sword",
-        "guage_level": "Spirit Level",
-        "guage_level_prefix": "Level",
-        "guage_level_disabled": "Off",
-        "guage_max": "Spirit Guage Max"
+        "title": "太刀",
+        "guage_level": "氣刃等級",
+        "guage_level_prefix": "等級",
+        "guage_level_disabled": "關閉",
+        "guage_max": "最大氣刃值"
     },
     "miscellaneous": {
-        "title": "Miscellaneous",
+        "title": "雜項",
         "ammo_and_coatings": {
-            "title": "Ammo and Coatings",
-            "auto_reload": "Auto Reload",
-            "no_deviation": "No Deviation",
-            "unlimited_ammo": "Unlimited Ammo (Bowguns)",
-            "unlimited_coatings": "Unlimited Coatings (Bow)"
+            "title": "彈藥與瓶",
+            "auto_reload": "自動裝填",
+            "no_deviation": "消除彈道偏移",
+            "unlimited_ammo": "無限彈藥(弩槍)",
+            "unlimited_coatings": "無限瓶 (弓)"
         },
         "canteen": {
-            "title": "Canteen",
-            "dango_100_no_ticket": "Dango Skill 100% (No Ticket)",
-            "dango_100_ticket": "Dango Skill 100% (Ticket)",
-            "level_4": "Level 4 Dango",
-            "level_4_tooltip": "GUI won't show level 4, but it will give you the level 4 skill"
+            "title": "貓飯",
+            "dango_100_no_ticket": "團子技能100%發動率(不消耗券)",
+            "dango_100_ticket": "團子技能100%發動率(消耗券)",
+            "level_4": "等級4團子",
+            "level_4_tooltip": "GUI不會顯示等級4，實際上會給你等級4的技能"
         },
         "consumables": {
-            "title": "Consumables",
-            "endemic_life": "Unlimited Endemic Life",
-            "items": "Unlimited Items"
+            "title": "消耗品",
+            "endemic_life": "無限環境生物",
+            "items": "不消耗消耗品"
         },
-        "sharpness_level": "Sharpness Level",
-        "sharpness_level_tooltip": "The sharpness bar will still move, but the sharpness level won't change",
+        "sharpness_level": "銳利度等級",
+        "sharpness_level_tooltip": "銳利度指示條依舊會減少，但是不改變等級",
         "sharpness_levels": {
-            "disabled":"Off", 
-            "red": "Red", 
-            "orange": "Orange", 
-            "yellow": "Yellow", 
-            "green": "Green", 
-            "blue": "Blue", 
-            "white": "White", 
-            "purple": "Purple"
+            "disabled":"關閉", 
+            "red": "紅斬", 
+            "orange": "橘斬", 
+            "yellow": "黃斬", 
+            "green": "綠斬", 
+            "blue": "藍斬", 
+            "white": "白斬", 
+            "purple": "紫斬"
         },
         "wirebugs": {
-            "title": "Wirebugs",
-            "give_3": "Give 3 Wirebugs",
-            "unlimited": "Unlimited Wirebugs",
-            "unlimited_ooc": "Unlimited Wirebugs (Out of Combat)",
-            "unlimited_powerup": "Unlimited Powerup",
-            "unlimited_powerup_tooltip": "Requires you to pick up a red or yellow wirebug first"
+            "title": "翔蟲",
+            "give_3": "常駐3隻翔蟲",
+            "unlimited": "不消耗翔蟲",
+            "unlimited_ooc": "不消耗翔蟲 (戰鬥以外)",
+            "unlimited_powerup": "無限翔蟲強化",
+            "unlimited_powerup_tooltip": "需要先在環境中取得紅色或黃色翔蟲"
         }
     },
     "charge_blade": {
-        "title": "Charge Blade",
+        "title": "充能斧",
         "full_bottles": "Full Bottles",
         "shield_charged": "Shield Charged",
         "sword_charged": "Sword Charged"
     },
     "dual_blades": {
-        "title": "Dual Blades",
+        "title": "雙刀",
         "archdemon_mode": "ArchDemon Mode",
         "ironshine_silk": "Ironshine Silk"
     },
     "gun_lance": {
-        "title": "Gun Lance",
+        "title": "銃槍",
         "aerials": "Unlimited Aerials",
         "auto_reload": "Auto Reload",
         "dragon_cannon": "Unlimited Dragon Cannon",
@@ -174,19 +174,19 @@
         "ground_splitter": "Ground Splitter"
     },
     "hunting_horn": {
-        "title": "Hunting Horn",
+        "title": "狩獵笛",
         "infernal_mode": "Infernal Mode",
         "skillbind_shockwave": "Skillbind Shockwave"
     },
     "switch_axe": {
-        "title": "Switch Axe",
+        "title": "斬擊斧",
         "max_charge": "Max Charge",
         "max_sword_ammo": "Max Sword Ammo",
         "power_axe": "Power Axe",
         "switch_charger": "Switch Charger"
     },
     "sword_and_shield": {
-        "title": "Sword & Shield",
+        "title": "片手劍",
         "destroyer_oil": "Destroyer Oil"
     }
 }
