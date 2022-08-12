@@ -1,13 +1,13 @@
 {
-    "_IMPORTANT NOTE": "If multiple items have the same value but control different things, you need to make them different by using spaces",
+    "_IMPORTANT NOTE": "如果有多個項目有著相同的數值但控制不同的東西，你必須使用空格來使他們不同",
     "bow": {
-        "title": "Bow",
-        "charge_level": "Charge Level   ",
-        "charge_level_prefix": "Level",
-        "charge_level_disabled": "Off",
-        "unlimited_arrows": "Unlimited Arrows",
+        "title": "弓",
+        "charge_level": "充能等級   ",
+        "charge_level_prefix": "等級",
+        "charge_level_disabled": "關閉",
+        "unlimited_arrows": "無限箭矢",
         "herculean_draw": "Herculean Draw",
-        "herculean_draw_tooltip": "No effect will appear on the weapon",
+        "herculean_draw_tooltip": "不會在武器上顯示效果",
         "bolt_boost": "Bolt Boost"
     },
     "character": {
@@ -15,25 +15,25 @@
         "conditions_and_blights": {
             "title": "Conditions, Ailments, & Blights",
             "blights": {
-                "title": "Prevent Blights",
-                "blast": "Blast",
-                "bubble": "Bubble",
-                "dragon": "Dragon",
-                "fire": "Fire",
-                "ice": "Ice",
-                "thunder": "Thunder",
-                "water": "Water"
+                "title": "避免狀態異常",
+                "blast": "爆破",
+                "bubble": "泡沫",
+                "dragon": "龍屬性",
+                "fire": "火屬性",
+                "ice": "冰屬性",
+                "thunder": "雷屬性",
+                "water": "水屬性"
             },
             "conditions": {
-                "title": "Prevent Conditions",
-                "bleeding": "Bleeding",
+                "title": "避免特殊狀態",
+                "bleeding": "裂傷",
                 "defence_and_resistance": "Defence and Resistance",
                 "frenzy": "Frenzy",
                 "hellfire_and_stentch": "Hellfire and Stench",
-                "poison": "Poison",
+                "poison": "毒",
                 "qurio": "Qurio",
-                "sleep": "Sleep",
-                "still_working_on": "Still working on Stun, Paralyze and Web"
+                "sleep": "睡眠",
+                "still_working_on": "暈眩、麻痺以及蛛絲束縛Still working"
             }
         },
         "health": {
